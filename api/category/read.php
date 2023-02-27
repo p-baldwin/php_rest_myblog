@@ -30,7 +30,8 @@
 
             $category_item = array(
                 'id' => $id,
-                'name' => $name
+                'name' => $name,
+                'created_at' => $created_at
             );
 
             // Push Data

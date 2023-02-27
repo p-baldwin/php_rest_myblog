@@ -15,7 +15,7 @@
     // Instantiate Blog Post Object
     $post = new Post($db);
 
-    // Get Raw Posted Data
+    // Get Raw User Input Data
     $data = json_decode(file_get_contents("php://input"));
 
     // Assign Input from User to the New Post

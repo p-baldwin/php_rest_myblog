@@ -1,11 +1,11 @@
 <?php
     class Database {
         // DB Parameters
-        private $host = '';
-        private $port = '';
-        private $db_name = '';
-        private $username = '';
-        private $password = '';
+        private $host;
+        private $port;
+        private $db_name;
+        private $username;
+        private $password;
         private $conn;
 
         // DB Connection Function

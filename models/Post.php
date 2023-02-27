@@ -80,6 +80,7 @@
             $this->author = $row['author'];
             $this->category_id = $row['category_id'];
             $this->category_name = $row['category_name'];
+            $this->created_at = $row['created_at'];
 
             // Return results of executing Query
             return $stmt;
